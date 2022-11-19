@@ -72,8 +72,8 @@ $category = $fila[5];
                 <span><?php echo $fila[4]; ?></span>
             </div>
 
-            <input type="hidden" name="hidden_image" value="<?php echo $fila[1]; ?>">
-            <input type="hidden" name="hidden_name" value="<?php echo $fila[2]; ?>">
+            <input type="hidden" name="hidden_name" value="<?php echo $fila[1]; ?>">
+            <input type="hidden" name="hidden_image" value="<?php echo $fila[2]; ?>">
             <input type="hidden" name="hidden_price" value="<?php echo $fila[3]; ?>">
         </form>
     </section>
