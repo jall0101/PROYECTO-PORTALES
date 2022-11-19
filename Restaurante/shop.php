@@ -94,9 +94,11 @@ include "conexion.php";
                     </div>
                 </div>
 
+                /*PRODUCTOS PARA LA VENTA POR SECCIONES*/
                 <div class="f-menu">
                     <div class="product">
                         <?php
+                        #COMIDA CHINA CON CLAVE DE CATEGORIA 'ch'
                         $query = mysqli_query($conex, "SELECT * FROM tbl_products WHERE category = 'ch' ");
                         $count = mysqli_num_rows($query);
                         if ($count > 0) {
@@ -132,6 +134,7 @@ include "conexion.php";
                 <div class="f-menu">
                     <div class="product">
                         <?php
+                        #COMIDA ITALIANA CON CLAVE DE CATEGORIA 'ita'
                         $query = mysqli_query($conex, "SELECT * FROM tbl_products WHERE category = 'ita' ");
                         $count = mysqli_num_rows($query);
                         if ($count > 0) {
@@ -167,6 +170,7 @@ include "conexion.php";
                 <div class="f-menu">
                     <div class="product">
                         <?php
+                        #COMIDA CENTRO-AMERICANA CON CLAVE DE CATEGORIA 'ca'
                         $query = mysqli_query($conex, "SELECT * FROM tbl_products WHERE category = 'ca' ");
                         $count = mysqli_num_rows($query);
                         if ($count > 0) {
