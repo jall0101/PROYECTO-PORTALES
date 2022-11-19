@@ -70,7 +70,7 @@ include "conexion.php";
                                 <div onclick="window.location.href='product-details.php?id=<?php echo $row["id"] ?>';" class="product-show">
                                     <div class="product-wrapper">
                                         <div class="product-img">
-                                            <img src="img/<?php echo $row["image"] ?>" alt="" class="showcase-img">
+                                            <img src="img<?php echo $row["image"] ?>" alt="" class="showcase-img">
                                         </div>
                                         <div class="product-content">
                                             <p class="product-title">
