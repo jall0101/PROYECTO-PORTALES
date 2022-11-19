@@ -9,7 +9,7 @@ include "conexion.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rebirth</title>
+    <title>Ordenar</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -70,7 +70,7 @@ include "conexion.php";
                                 <div onclick="window.location.href='product-details.php?id=<?php echo $row["id"] ?>';" class="product-show">
                                     <div class="product-wrapper">
                                         <div class="product-img">
-                                            <img src="img/<?php echo $row["image"] ?>" alt="" class="showcase-img">
+                                        <img src="img/<?php echo $row["image"] ?>" alt="" class="showcase-img">
                                         </div>
                                         <div class="product-content">
                                             <p class="product-title">
@@ -94,7 +94,7 @@ include "conexion.php";
                     </div>
                 </div>
 
-                
+
                 <div class="f-menu">
                     <div class="product">
                         <?php

@@ -23,7 +23,7 @@ $category = $fila[5];
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rebirth</title>
+    <title>Carrito</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -59,12 +59,12 @@ $category = $fila[5];
     <section>
         <form action="" method="post" id="prodetails" class="section-p1">
             <div class="single-pro-image">
-                <img src="img/<?php echo $fila[1]; ?>" width="100%" class="principal" id="mainImg" alt="">
+                <img src="img/<?php echo $fila[2]; ?>" width="100%" class="principal" id="mainImg" alt="">            
             </div>
 
             <div class="single-pro-details">
-                <h6>Inicio / <?php echo $fila[2]; ?></h6>
-                <h4><?php echo $fila[2]; ?></h4>
+                <h6>Inicio / <?php echo $fila[1]; ?></h6>
+                <h4><?php echo $fila[1]; ?></h4>
                 <h2>$<?php echo number_format($fila[3], 2); ?></h2>
                 <input type="number" name="quantity" value="1">
                 <button type="submit" name="add_to_cart" class="normal">Add To Cart</button>
