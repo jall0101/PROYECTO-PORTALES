@@ -65,7 +65,7 @@ include "cartProcess.php";
 
             if (isset($_SESSION["shopping_cart"])) {
                 $pagar= 0;
-                $ISV=0.15;
+                $ISV=0;
                 $total = 0;
                 $contar = count($_SESSION['shopping_cart']);
                 foreach ($_SESSION["shopping_cart"] as $keys => $values) {
@@ -82,7 +82,7 @@ include "cartProcess.php";
                     </tbody>
                     <?php
                     $total = $total + ($values['item_quantity'] * $values['item_price']);
-                    $ISV = $ISV * $total;
+                    $ISV = 0.15 * $total;
                     $pagar = $total + $ISV;
                     ?>
 
