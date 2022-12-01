@@ -45,7 +45,7 @@ include "cartProcess.php";
 
     <section id="page-header">
         <h2>#stayhome</h2>
-        <p>¡Ahorre más con cupones y obtenga hasta un 70% de descuento!</p>
+        <p>¡Ahorre más con cupones y obtenga hasta un 40% de descuento!</p>
     </section>
 
     <section id="cart" class="section-p1">
@@ -108,6 +108,15 @@ include "cartProcess.php";
                 <tr>
                     <td>Subtotal</td>
                     <td>$<?php echo number_format($total, 2); ?></td>
+                </tr>
+                <tr>
+                    <td>Descuento Tercera Edad</td>
+                    <td>
+                        
+                    <form action="index.php" method="post">
+                        <input type="checkbox" name="descuento" value="1">
+                    </form>
+                    </td>
                 </tr>
                 <tr>
                     <td>Envío</td>

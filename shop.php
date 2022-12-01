@@ -46,7 +46,7 @@ include "conexion.php";
 
     <section id="page-header">
         <h2>#stayhome</h2>
-        <p>¡Ahorre más con cupones y obtenga hasta un 70% de descuento!</p>
+        <p>¡Ahorre más con cupones y obtenga hasta un 40% de descuento!</p>
     </section>
 
     <section id="product1" class="section-p1">

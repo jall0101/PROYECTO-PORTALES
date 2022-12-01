@@ -46,7 +46,7 @@ include "conexion.php";
         <h4>Mejores-ofertas</h4>
         <h2 class="bannerr">Súper ofertas</h2>
         <h1>En todas las ordenes</h1>
-        <p>¡Ahorre más con cupones y hasta un 70 % de descuento!</p>
+        <p>¡Ahorre más con cupones y hasta un 40 % de descuento!</p>
         <button onclick="window.location.href='shop.php';">Ordenar ahora</button>
     </section>
 
